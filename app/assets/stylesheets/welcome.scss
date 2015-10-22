@@ -1,0 +1,64 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.random_statistic{
+  width: 40em;
+  height: 3em;
+  position: static;
+  display: inline-block;
+  float: left;
+}
+
+.newest_writing{
+  float: left;
+  margin-left: 50px;
+  display: none;
+}
+
+#writing_image{
+  height: 325px;
+  width: 500px;
+}
+
+#writing_title{
+  font-family: "Georgia";
+  font-size: 60%;
+}
+
+#writing_content{
+  position: absolute;
+  font-family: "Gandhi Sans";
+  font-weight: normal;
+  text-align: left;
+  font-size: 15px;
+  margin-right: 425px;
+}
+#writing_list {
+    float: right;
+    margin-right: 90px;
+    height: 700px;
+    width: 300px;
+    border-left: thin solid black;
+    overflow: auto;
+    font-size: 18px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a, a:visited{
+  color: black;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+
+#writing_list a:hover{
+  color: salmon;
+}
+

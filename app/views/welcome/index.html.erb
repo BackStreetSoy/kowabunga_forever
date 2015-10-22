@@ -1,0 +1,32 @@
+<h1><h1>
+
+
+
+<div class="welcome_blurb">
+  <p>these are practice words</p>
+  <p>these are more practice wordsdfsdfjhsdkjfhsdkjhfkjsdhfkjhsdkfhdkskfhdhdsfjhdskhfsdsadsassssssssssssssssss</p>
+  <p>this is one of my only skill sets</p>
+</div>
+
+
+<section class = "newest_writing">
+
+  <div><%=image_tag @writings.last.image, id: "writing_image"%></div>
+
+  <div id="writing_title">
+    <p><%=@writings.last.title%></p>
+  </div>
+
+  <div id="writing_content">
+    <p><%= raw @writings.last.content%></p>
+  </div>
+
+  </section>
+
+  <div id ="writing_list">
+    <ul>
+      <%@writings.each do |writing| %>
+      <li><%=link_to writing.title, writing_path(writing), id: "writing_link" %></li><br><br>
+      <%end%>
+    </ul>
+  </div>
