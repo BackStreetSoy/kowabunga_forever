@@ -1,8 +1,26 @@
-<h1>Podcasts</h1>
+<h1><h1>
 
-<ul>
-<%@podcasts.each do |podcast|%>
-<li><%=link_to(podcast.title, podcast_path(podcast))%></li>
-<%end%>
-</ul>
+<div class="podcast_blurb">
+  <p>Here are some podcasts. Click on a title you fancy and enjoy the ride.<p>
+</div>
 
+
+<section class = "current_podcast">
+
+  <div id="podcast_title">
+    <p></p>
+  </div>
+
+  <div id="podcast_content">
+    <p></p>
+  </div>
+
+  </section>
+
+  <div id ="writing_list">
+    <ul>
+      <%@podcasts.each do |podcast| %>
+      <li><%=link_to podcast.title, podcast_path(podcast), id: "podcast_link" %></li><br><br>
+      <%end%>
+    </ul>
+  </div>

@@ -1,0 +1,46 @@
+// Place all the styles related to the Game controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.prompt_image img{
+    width: 628px;
+    height: 353px;
+}
+
+.current_prompt {
+    min-width: 52%;
+    position: relative;
+    word-break: keep-all;
+    white-space: wrap;
+    hyphens: auto;
+    color: gray;
+    font-family: "Gandhi Sans";
+    font-weight: normal;
+    font-size: 110%;
+    text-align: justify;
+    margin-left: 305px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+#option_select{
+    float: left;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    clear: both;
+    color: #3a3a3a;
+    padding: 15px;
+    margin: 5px;
+    background-color: #FFCCCC;
+    margin-left: 310px;
+    margin-top: 5px;
+    display: inline-block;
+    position: relative;
+
+}
+
+
+
+#option_select:hover{
+    background-color: #FF99CC;
+}

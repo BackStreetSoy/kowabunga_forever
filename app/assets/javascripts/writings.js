@@ -1,8 +1,11 @@
 $(document).ready(function(){
     console.log("ding")
 
-    $("a#writing_link").on("click", function(e) {
+    
+    $("a#writing_link").click(function(e) {
+        console.log("dong")
         e.preventDefault();
+        e.stopPropagation();
 
         var $link = $(this)
 
@@ -19,7 +22,6 @@ $(document).ready(function(){
         });
 
     });
-    
 
 
 });
