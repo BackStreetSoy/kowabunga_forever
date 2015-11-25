@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    console.log("ding")
+    console.log("hello")
 
     
     $("a#writing_link").click(function(e) {
