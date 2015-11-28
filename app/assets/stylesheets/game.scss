@@ -23,7 +23,7 @@
     margin-top: 50px;
 }
 
-#option_select{
+.option_select{
     float: left;
     font-family: Helvetica,Arial,sans-serif;
     font-size: 15px;
@@ -42,6 +42,26 @@
 
 
 
-#option_select:hover{
+.option_select:hover{
     background-color: #FF99CC;
+}
+
+
+
+
+
+.option_select_dialogue{
+    
+}
+
+.option_select_dialogue::after{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 15px;
+    border-width: 15px 15px 0 0;
+    border-style: solid;
+    border-color: #FFCCCC transparent;
+    display: block;
+    width: 0;
 }

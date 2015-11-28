@@ -207,7 +207,7 @@ var prompts = [
 },
 
 {"name": "Youre_a_baby_what_do_you_know",
-"promptContent": '<p>"It depends on whether you prescribe to a Tabula Rasa school of epistemology, or if Innatism is more your bag. The Tabula Rasa or \'blank slate\', mode of thinking holds that an individual is born with a blank mind ready to absorb knowledge or as have knowledge be inscribed into it, much like a scribe would a stone tablet in ancient Greece. Innatism, conversely, posits that   the mind is born with certain ideas/knowledge.”</p>',
+"promptContent": '<p>"It depends on whether you prescribe to a Tabula Rasa school of epistemology, or if Innatism is more your bag. The Tabula Rasa or \'blank slate\', mode of thinking holds that an individual is born with a blank mind ready to absorb knowledge or have knowledge be inscribed into it, much like a scribe would a stone tablet in ancient Greece. Innatism, conversely, posits that   the mind is born with certain ideas/knowledge.”</p>',
 "promptImage": '/assets/bindle_baby.png',
 "promptChoices": ["That was boring","That was informative. I assume the letter stapled to my chest will also be informative."],
 "dialogue": true },
@@ -443,7 +443,7 @@ var prompts = [
 
 {
     "name": "Whats_this_guys_problem",
-    "promptContent": "<p>\"It's hard to say for certain, but violence is sometimes symptomatic of a larger issue within a persons psychology. So really this could have happened for a number of reasons. Some might     try to interpret it as the tragic act of an individual tormented by isolation, others might say the     perpetrator was simply a sick, hate filled individual.\"</p><p>“ Or Maybe you're family was annoying. The possibilities are endless.”</p>",
+    "promptContent": "<p>\"It's hard to say for certain, but violence is sometimes symptomatic of a larger issue within a persons psychology. So really this could have happened for a number of reasons. Some might     try to interpret it as the tragic act of an individual tormented by isolation, others might say the     perpetrator was simply a sick, hate filled individual.\"</p><p>“ Or Maybe your family was annoying. The possibilities are endless.”</p>",
     "promptImage": "/assets/detective_wallce.png",
     "promptChoices": ["I don't like that explanation, but I respect it. I'll firmly talk to this dude."],
     "dialogue": true 
@@ -476,7 +476,7 @@ var prompts = [
 
 {
     "name": "Id_be_honored",
-    "promptContent": "<p>You spend the rest of the day lecturing the lonely detective about the meaning of loss . The detective's eyes water with salty tears of happiness, because now he's finally free.</p>",
+    "promptContent": "<p>You spend the rest of the day lecturing the lonely detective about the meaning of loss . The detective's eyes sting with the salty tears of happiness, because now he's finally free.</p>",
     "promptImage": "/assets/detective_wallce.png",
     "promptChoices": ["end game"],
     "dialogue": false 
@@ -521,7 +521,7 @@ var prompts = [
 
 {
     "name": "I_dont_like_that_explanation_but_I_respect_it_Ill_firmly_talk_to_this_dude",
-    "promptContent": "<p>You scream wildly into the sky. This beckons an eagle to you. The eagle tells you its name is Scwaaaaaaaa Kwloo, which means Bird of Fire in eagle scream tongue. You relate your tale to Scwaaaaaaaa Kwloo. Scwaaaaaaaa shows you the kindness and understanding before offering to regurgitate some of his morning meal into your mouth. You decline but ask if Scwaaaaaaaa can instead fly you to where you need to be in order to give one hell of a firm talking to.</p> <p> So you fly over to where the murder is like a bat out of hell. Nobody has ever given the kind of talking to that you are about to lay on his candy ass. When you find him he knows what's about to happen, and he knows he messed up. You sit him down and you explain how not okay murder is. He agrees and his eyes start to water. You don't want to push the point because he looks like he's going to be pretty hard on himself. You leave. </p>",
+    "promptContent": "<p>You scream wildly into the sky. This beckons an eagle to you. The eagle tells you its name is Scwaaaaaaaa Kwloo, which means Bird of Fire in eagle scream tongue. You relate your tale to Scwaaaaaaaa Kwloo. Scwaaaaaaaa shows you kindness and understanding and offers to regurgitate some of his morning meal into your mouth. You decline but ask if Scwaaaaaaaa can instead fly you to where you need to be in order to give one hell of a firm talking to.</p> <p> So you fly over to where the murder is like a bat out of hell. Nobody has ever given the kind of talking to that you are about to lay on his candy ass. When you find him he knows what's about to happen, and he knows he messed up. You sit him down and you explain how not okay murder is. He agrees and his eyes start to water. You don't want to push the point because he looks like he's going to be pretty hard on himself. You leave. </p>",
     "promptImage": "/assets/firm_talking_to.png",
     "promptChoices": ["none it's over"],
     "dialogue": false 
@@ -613,7 +613,7 @@ var prompts = [
     "name": "none_its_over",
     "promptContent": "Thanks for playing. If you found the person that murdered your family, far out, go you. If not, also far out. Come again next Christmas!",
     "promptImage": "/assets/finito.png",
-    "promptChoices": ["play again.", "forget this even happened."],
+    "promptChoices": ["<a href= '/game/show'>play again.</a>", "forget this even happened."],
     "dialogue": false 
 },
 
@@ -624,10 +624,6 @@ var prompts = [
     "promptChoices": ["play again.", "forget this even happened."],
     "dialogue": false 
 },
-
-
-
-
 
 
 
@@ -644,7 +640,7 @@ var prompts = [
     "name": "end_game",
     "promptContent": "Thanks for playing. If you found the person that murdered your family, far out, go you. If not, also far out. Come again next Christmas!",
     "promptImage": "/assets/finito.png",
-    "promptChoices": ["play again.", "forget this even happened."],
+    "promptChoices": ["<a href= '/'>play again.</a>", "forget this even happened."],
     "dialogue": false 
 }
 
@@ -653,6 +649,10 @@ var prompts = [
 
 var game_prompts = prompts
 
+var say_hello = function(){
+    console.log("hello")
+}
+
 var generate_prompt = function(prompt){
     $(".prompt_image img").attr("src", prompt["promptImage"])
 
@@ -660,27 +660,47 @@ var generate_prompt = function(prompt){
 }
 
 
-
 var generate_choices = function(choice_array){
-    choice_array.forEach(function(choice){
-        $(".option_select_" + (choice_array.indexOf(choice) + 1)).html(choice)
+    $("div.option_select").remove();
 
-        $(".option_select_" + (choice_array.indexOf(choice) + 1)).parent().attr("id", choice.split(" ").join("_").replace(/[!*?*'*,*.*]/g, ""))
+    choice_array.forEach(function(choice){
+        var div = document.createElement("div");
+        div.setAttribute("class", "option_select");
+        div.setAttribute("id", choice.split(" ").join("_").replace(/[!*?*'*,*.*]/g, ""));
+        // div.addEventListener = ('click', say_hello, false);
+        div.innerHTML = choice;
+
+        
+        document.body.appendChild(div).after("<p>test</p>");
     });
+
 }
 
 
-$(document).ready(function(){
+// var generate_choices = function(choice_array){
+//     choice_array.forEach(function(choice){
+//         $(".option_select_" + (choice_array.indexOf(choice) + 1)).html(choice)
+
+//         $(".option_select_" + (choice_array.indexOf(choice) + 1)).parent().attr("id", choice.split(" ").join("_").replace(/[!*?*'*,*.*]/g, ""))
+//     });
+// }
+
+
+$(".game.show").ready(function(){
     generate_prompt(game_prompts[0])
 
     generate_choices(game_prompts[0]["promptChoices"]);
 
 // now that this works you can now set a conditional that says for each prompt if it's name matches the parent id of the link you just clicked... load up the prompt! This is a win. Congrats. Tomorrow you have to get some writing done. You want to learn how to play an instrument and draw but right now your focus needs to be WRITING. WRITE. WRITE. WRITE. Like a crazy person.
-    $("[id=option_select").on("click", function(e){
-        e.preventDefault();
-        var $prompt_id = $(this).parent().attr("id")
+    $("body").on("click", "div.option_select", function(e){
+        // e.preventDefault();
+        console.log("scoop")
+        var $prompt_id = $(this).attr("id")
         var new_prompt = ""
         var new_choices = ""
+
+        console.log($prompt_id)
+
 
         game_prompts.some(function(prompt){
             // console.log(prompt["name"])
