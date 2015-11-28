@@ -2,7 +2,7 @@
 var prompts = [
     {
     "name": "main_prompt",
-    "promptContent":'<p>You wake up on a Sunday at like one o\'clock in the morning. Immediately, you vomit and scream at the top of your lungs, the more you vomit the more afraid of vomit you become and the louder you scream, the louder you scream the more allergic you become to noise and the more you vomit.</p> <p>Seventy eight days later you realize you\'re being stupid and stop. In that time somebody stapled a note written in blood on your chest. </p>', 
+    "promptContent":'<p>You wake up on a Sunday at like one o\'clock in the morning. Immediately, you vomit and scream at the top of your lungs, the more you vomit the more afraid of vomit you become and the louder you scream. The louder you scream the more allergic you become to noise and the more you vomit.</p> <p>Seventy eight days later you realize you\'re being stupid and stop. In that time somebody stapled a note written in blood on your chest. </p>', 
     "promptImage": "/assets/bedroom.png", 
     "promptChoices":["read the note", "go watch project runway, and play with your belly button", "have a baby"],
     "dialog": false 
@@ -11,7 +11,7 @@ var prompts = [
 
     {
      "name": "have_a_baby",
-     "promptContent":'<p>You squeeze a baby out of your being. After thorough analysis you come to the conclusion that  it\'s a girl. Hating to enforce labels, you tell the baby to name itself. It blows a booger bubble out    of its nose, which makes you laugh merrily and say.. </p>',
+     "promptContent":'<p>You squeeze a baby out of your being. After thorough analysis you come to the conclusion that  it\'s a girl. Hating to enforce labels, you tell the baby to name herself. She blows a booger bubble out of her nose, which makes you laugh merrily and say.. </p>',
      "promptImage": "/assets/have_a_baby.png",
      "promptChoices": ["Jason it is!", "That's not an answer you idiot! What's your name?", "Hey, I wish we could talk some more but I've got this note stapled to my chest that I should read."],
      "dialogue": true
@@ -20,7 +20,7 @@ var prompts = [
 
     {
         "name":"Jason_it_is",
-        "promptContent": "<p>Baby Jason starts to glow like a little baby lightbulb. She giggles and burps and is altogether a tubby sign that seems to be beckoning you to get out of this crazy life. To throw it all   away and start all over. Maybe at a small mining town, or a place where they don\'t know about   city things like bathing and Netflix.</p> <p>He begs you not to read the note on your chest and to just escape from the rat race.</p>",
+        "promptContent": "<p>Baby Jason starts to glow like a little baby lightbulb. She giggles and burps in a matter that seems to be beckoning you to get out of this crazy life. To throw it all   away and start all over. Maybe at a small mining town, or a place where they don\'t know about   city things like bathing and Netflix.</p> <p>She begs you not to read the note on your chest and to escape from the rat race.</p>",
         "promptImage":"/assets/have_a_baby.png",
         "promptChoices": ["No, I can't Baby Jason. I have a life here, a good life, with friends and family. It wouldn't be right.", "Sign me up!", "I promised myself a long time ago that I'd stop letting babies tell me what to do. I'm going to read the note"],
         "dialogue": true 
@@ -359,7 +359,8 @@ var prompts = [
     "name": "talk_to_dan",
     "promptContent": "<p>You kneel down next to Dan to hear him speak.</p> <p>“Somebody murdered me. And Mom and Dad too. The note on your chest explains it.</p>",
     "promptImage": "/assets/bloody_hand.png",
-    "promptChoices": ["Who's Mom and Dad?", "Are you accusing me?", "Oh sweet I should read the note"]
+    "promptChoices": ["Who's Mom and Dad?", "Are you accusing me?", "Oh sweet I should read the note"],
+    "dialogue": true 
 },
 
 
@@ -367,7 +368,8 @@ var prompts = [
     "name": "Are_you_accusing_me",
     "promptContent": "<p>Yes, and now I'm going to take you to hell with me you bastard. I have always been the superior son, and am prepared to make the best of my dying breath to end you now!</p> <p>Your brother rips out one of his ribs and stabs you in the eye with it.</p>",
     "promptImage": "/assets/bloody_hand.png",
-    "promptChoices": ["take the rib to the eye", "read the note."]
+    "promptChoices": ["take the rib to the eye", "read the note."],
+    "dialogue": false 
 },
 
 
@@ -375,14 +377,16 @@ var prompts = [
     "name": "Whos_Mom_and_Dad",
     "promptContent": "<p>Mom and Dad is what we call our parents. They got naked and smashed their bodies against  each other a bunch of times to make you and me.</p><p>You used to call them Battery and Be-Bop Commander 12, but they told you to stop it because those aren't their names. No one knows what their names are because they forgot so now  you call them mom and dad which, I assume you think, is polish for Battery and Be-Bop Commander 12.</p>",
     "promptImage": "/assets/dorky_parents.png" ,
-    "promptChoices": ["Oh sweet, I should read the note", "Are you lying?"]
+    "promptChoices": ["Oh sweet, I should read the note", "Are you lying?"],
+    "dialogue": true 
 },
 
 {
     "name":"Are_you_lying",
     "promptContent": "<p>'No'</p>",
     "promptImage": "/assets/dorky_parents.png",
-    "promptChoices": ["Oh sweet, I should read the note", "Are you sure?"]
+    "promptChoices": ["Oh sweet, I should read the note", "Are you sure?"],
+    "dialogue": true 
 },
 
 
@@ -390,14 +394,16 @@ var prompts = [
     "name": "Are_you_sure",
     "promptContent": "<p>No I'm not sure, I'm a caterpillar.</p><p>Then your brother died choking on his own blood.</p>",
     "promptImage": "/assets/dorky_parents.png",
-    "promptChoices": ["Oh sweet, I should read the note."]
+    "promptChoices": ["Oh sweet, I should read the note."],
+    "dialogue": true 
 },
 
 {
     "name": "whos_dan",
     "promptContent": "<p>Dan is your brother. He taught you how to ride a bike and skip rocks. Sure he can be a jerk sometimes but he didn't tell mom and dad about that thing you did. He's dying now.</p>",
     "promptImage": "/assets/douch_dan.png",
-    "promptChoices": ["talk to dan", "die with dan"]
+    "promptChoices": ["talk to dan", "die with dan"],
+    "dialogue": false 
 },
 
 
@@ -405,7 +411,8 @@ var prompts = [
     "name": "take_the_rib_to_the_eye",
     "promptContent": "<p>The shock of getting stabbed in the eye with a rib puts you into cardiac arrest and you die but not before you say, “an eye for a rib eye,”  pull the rib out and stab Dan with it.</p><p>Dan laughs, and says “Fool! A man can not die by his own rib, by striking me with mine own rib you have only made me stronger!” Who is dan talking to? Dead you? Dead defeated you? You're dead. Dan is dead now too.</p>",
     "promptImage": "/assets/douch_dan.png",
-    "promptChoices": ["end game"]
+    "promptChoices": ["end game"],
+    "dialogue": false 
 },
 
 
@@ -413,14 +420,16 @@ var prompts = [
     "name": "die_with_dan",
     "promptContent": "<p>Not to be one upped by that asshole Dan, you will yourself to die before he does.</p>",
     "promptImage": "/assets/douch_dan.png",
-    "promptChoices": ["end game"]
+    "promptChoices": ["end game"],
+    "dialogue": false 
 },
 
 {
     "name":"think_about_whether_or_not_paper_has_gluten_in_it",
     "promptContent": "<p>Gluten can be scary, and it seems to be everywhere, but luckily a quick google search on your  phone revealed to you that it's not in paper so you can relax.</p><p>Your doorbell rings again</p>",
     "promptImage": "/assets/sandwhich.png",
-    "promptChoices": ["answer your door"]
+    "promptChoices": ["answer your door"],
+    "dialogue": false 
 
 },
 
@@ -428,50 +437,57 @@ var prompts = [
     "name": "answer_your_door",
     "promptContent": "<p>You get out of bed, and and walk to your living room.  There you see the bodies of your deceased relatives, it's kind of a pain to have to walk over them to answer the door.</p> <p>When you open the door you see a man in a trench coat and fedora with an advertisement for the Dark Knight, he introduced himself as     Detective Wallace, no relation to William Wallace. You tell him that you didn't assume there    was a relationship. Embarrassed, he quickly changes the subject.</p> <p>“Your family has been murdered, the feds are all over the case, but the thing is we already know    who did it. It was Jake O'Malley. Famed diamond thief and family killer. He lives two blocks    from here, we need you to give him the firmest talking to anybody has ever given.”</p>",
     "promptImage": "/assets/detective_wallce.png",
-    "promptChoices": ["I\'m going to give him a talking to firmer than a handshake between two coked out business executives.", "Can\'t you see that I\'m in mourning?", "What\'s this guy\'s problem?" ]
+    "promptChoices": ["I\'m going to give him a talking to firmer than a handshake between two coked out business executives.", "Can\'t you see that I\'m in mourning?", "What\'s this guy\'s problem?" ],
+    "dialogue": true 
 },
 
 {
     "name": "Whats_this_guys_problem",
     "promptContent": "<p>\"It's hard to say for certain, but violence is sometimes symptomatic of a larger issue within a persons psychology. So really this could have happened for a number of reasons. Some might     try to interpret it as the tragic act of an individual tormented by isolation, others might say the     perpetrator was simply a sick, hate filled individual.\"</p><p>“ Or Maybe you're family was annoying. The possibilities are endless.”</p>",
     "promptImage": "/assets/detective_wallce.png",
-    "promptChoices": ["I don't like that explanation, but I respect it. I'll firmly talk to this dude."]
+    "promptChoices": ["I don't like that explanation, but I respect it. I'll firmly talk to this dude."],
+    "dialogue": true 
 }, 
 
 {
     "name": "Cant_you_see_that_Im_in_mourning",
     "promptContent": "<p>“Of course, and I am terribly sorry. The trouble is, however, that if you don't give this guy a firm talking to soon he might do it again.”</p>",
     "promptImage": "/assets/detective_wallce.png",
-    "promptChoices": ["But how do we know that he'll listen to me?","Maybe I should give you a firm talking to", "I thought I had laid my firm talking to days to rest a long time ago, but very well."]
+    "promptChoices": ["But how do we know that he'll listen to me?","Maybe I should give you a firm talking to", "I thought I had laid my firm talking to days to rest a long time ago, but very well."],
+    "dialogue": true 
 },
 
 
 {"name": "But_how_do_we_know_that_hell_listen_to_me",
 "promptContent": "<p> \"What choice will he have?\" </p>",
 "promptImage": "/assets/detective_wallce.png",
-"promptChoices": ["Good point. Let me do some vocal exercises for a minute first."]},
+"promptChoices": ["Good point. Let me do some vocal exercises for a minute first."],
+"dialogue": true},
 
 
 {
     "name": "Maybe_I_should_give_you_a_firm_talking_to",
     "promptContent": "<p>“As a P.I. my life can get pretty lonely. I live primarily in stinging obscurity. Having  somebody pay enough attention to me to actually bother to give me a lecture would mean a lot.   But before you do would you mind if,” the detective pauses to take off his hat, “I call you papa?” </p>",
     "promptImage": "/assets/detective_wallce.png",
-    "promptChoices": ["You made this weird", "I'd be honored"]
+    "promptChoices": ["You made this weird", "I'd be honored"],
+    "dialogue": true 
 },
 
 
 {
     "name": "Id_be_honored",
-    "promptContent": "You spend the rest of the day lecturing the lonely detective about the meaning of loss . The detective's eyes water with salty tears of happiness, because now he's finally free.",
+    "promptContent": "<p>You spend the rest of the day lecturing the lonely detective about the meaning of loss . The detective's eyes water with salty tears of happiness, because now he's finally free.</p>",
     "promptImage": "/assets/detective_wallce.png",
-    "promptChoices": ["end game"]
+    "promptChoices": ["end game"],
+    "dialogue": false 
 },
 
 {
     "name": "You_made_this_weird",
     "promptContent": "<p>“Right, of course. Please pardon my behavior. Do you think you can talk to that guy Jake  Though?”</p>",
     "promptImage": "/assets/detective_wallce.png",
-    "promptChoices": ["fine"]
+    "promptChoices": ["fine"],
+    "dialogue": true 
 },
 
 
@@ -479,39 +495,44 @@ var prompts = [
     "name": "you_made_weird_prompt",
     "promptContent": "<p>“Right, of course. Please pardon my behavior. Do you think you can talk to that guy Jake  Though?”</p>",
     "promptImage": "/assets/detective_wallce.png",
-    "promptChoices": ["fine"]
+    "promptChoices": ["fine"],
+    "dialogue": true 
 },
 
 
 
 {
     "name": "Im_going_to_give_him_a_talking_to_firmer_than_a_handshake_between_two_coked_out_business_executives",
-    "promptContent": "<p> SOME STUFF </p>",
-    "promptImage": "/assets/murder_dog.png",
-    "promptChoices": ["none it's over"]
+    "promptContent": "<p>So you march over to where he is like a bat out of hell. Nobody has ever given the kind of talking to that you are about to lay on his candy ass. When you find him he knows what's about to happen, and he knows he messed up. You sit him down and you explain how not okay murder is. He agrees and his eyes start to water. You don't want to push the point because he looks like he's going to be pretty hard on himself. You leave.</p>",
+    "promptImage": "/assets/firm_talking_to.png",
+    "promptChoices": ["none it's over"],
+    "dialogue": false 
 },
 
 
 
 {
     "name": "Good_point_Let_me_do_some_vocal_exercises_for_a_minute_first",
-    "promptContent": "<p> SOME STUFF </p>",
-    "promptImage": "/assets/murder_dog.png",
-    "promptChoices": ["none it's over"]
+    "promptContent": "<p>After twenty eight minutes of vocal exercises you are ready to talk firmly. So you march over to where he is like a bat out of hell. Nobody has ever given the kind of talking to that you are about to lay on his candy ass. When you find him he knows what's about to happen, and he knows he messed up. You sit him down and you explain how not okay murder is. He agrees and his eyes start to water. You don't want to push the point because he looks like he's going to be pretty hard on himself. You leave.</p>",
+    "promptImage": "/assets/firm_talking_to.png",
+    "promptChoices": ["none it's over"],
+    "dialogue": false 
 },
 
 {
     "name": "I_dont_like_that_explanation_but_I_respect_it_Ill_firmly_talk_to_this_dude",
-    "promptContent": "<p> SOME STUFF </p>",
-    "promptImage": "/assets/murder_dog.png",
-    "promptChoices": ["none it's over"]
+    "promptContent": "<p>You scream wildly into the sky. This beckons an eagle to you. The eagle tells you its name is Scwaaaaaaaa Kwloo, which means Bird of Fire in eagle scream tongue. You relate your tale to Scwaaaaaaaa Kwloo. Scwaaaaaaaa shows you the kindness and understanding before offering to regurgitate some of his morning meal into your mouth. You decline but ask if Scwaaaaaaaa can instead fly you to where you need to be in order to give one hell of a firm talking to.</p> <p> So you fly over to where the murder is like a bat out of hell. Nobody has ever given the kind of talking to that you are about to lay on his candy ass. When you find him he knows what's about to happen, and he knows he messed up. You sit him down and you explain how not okay murder is. He agrees and his eyes start to water. You don't want to push the point because he looks like he's going to be pretty hard on himself. You leave. </p>",
+    "promptImage": "/assets/firm_talking_to.png",
+    "promptChoices": ["none it's over"],
+    "dialogue": false 
 },
 
 {
     "name": "fine",
     "promptContent": "<p> SOME STUFF </p>",
-    "promptImage": "/assets/murder_dog.png",
-    "promptChoices": ["none it's over"]
+    "promptImage": "/assets/firm_talking_to.png",
+    "promptChoices": ["none it's over"],
+    "dialogue": false 
 },
 
 
@@ -519,8 +540,9 @@ var prompts = [
 {
     "name": "I_thought_I_had_laid_my_firm_talking_to_days_to_rest_a_long_time_ago_but_very_well",
     "promptContent": "<p> SOME STUFF </p>",
-    "promptImage": "/assets/murder_dog.png",
-    "promptChoices": ["none it's over"]
+    "promptImage": "/assets/firm_talking_to.png",
+    "promptChoices": ["none it's over"],
+    "dialogue": false 
 },
 
 
@@ -528,7 +550,8 @@ var prompts = [
     "name": "Wow_ends_the_game",
     "promptContent": "Thanks for playing. If you found the person that murdered your family, far out, go you. If not, also far out. Come again next Christmas!",
     "promptImage": "/assets/finito.png",
-    "promptChoices": ["play again.", "forget this even happened."]
+    "promptChoices": ["play again.", "forget this even happened."],
+    "dialogue": false 
 },
 
 
@@ -536,7 +559,8 @@ var prompts = [
     "name": "That_is_an_accurate_description_of_my_personality_yeah_end_game",
     "promptContent": "Thanks for playing. If you found the person that murdered your family, far out, go you. If not, also far out. Come again next Christmas!",
     "promptImage": "/assets/finito.png",
-    "promptChoices": ["play again.", "forget this even happened."]
+    "promptChoices": ["play again.", "forget this even happened."],
+    "dialogue": false 
 },
 
 
@@ -544,7 +568,8 @@ var prompts = [
     "name": "I_miss_Jason",
     "promptContent": "Thanks for playing. If you found the person that murdered your family, far out, go you. If not, also far out. Come again next Christmas!",
     "promptImage": "/assets/finito.png",
-    "promptChoices": ["play again.", "forget this even happened."]
+    "promptChoices": ["play again.", "forget this even happened."],
+    "dialogue": false 
 },
 
 
@@ -552,7 +577,8 @@ var prompts = [
     "name": "hahaha",
     "promptContent": "Thanks for playing. If you found the person that murdered your family, far out, go you. If not, also far out. Come again next Christmas!",
     "promptImage": "/assets/finito.png",
-    "promptChoices": ["play again.", "forget this even happened."]
+    "promptChoices": ["play again.", "forget this even happened."],
+    "dialogue": false 
 },
 
 
@@ -560,30 +586,43 @@ var prompts = [
     "name": "Great_Being_an_employed_member_of_society_sounds_pretty_reasonable",
     "promptContent": "Thanks for playing. If you found the person that murdered your family, far out, go you. If not, also far out. Come again next Christmas!",
     "promptImage": "/assets/finito.png",
-    "promptChoices": ["play again.", "forget this even happened."]
+    "promptChoices": ["play again.", "forget this even happened."],
+    "dialogue": false 
 },
 
 {
     "name": "Fuck_me",
     "promptContent": "Thanks for playing. If you found the person that murdered your family, far out, go you. If not, also far out. Come again next Christmas!",
     "promptImage": "/assets/finito.png",
-    "promptChoices": ["play again.", "forget this even happened."]
+    "promptChoices": ["play again.", "forget this even happened."],
+    "dialogue": false 
 },
 
 {
     "name": "cool_that_was_sick_but_isnt_this_game_about_solving_the_murder_of_my_family_or_something",
     "promptContent": "Thanks for playing. If you found the person that murdered your family, far out, go you. If not, also far out. Come again next Christmas!",
     "promptImage": "/assets/finito.png",
-    "promptChoices": ["play again.", "forget this even happened."]
+    "promptChoices": ["play again.", "forget this even happened."],
+    "dialogue": false 
 },
 
 
+
+
+{
+    "name": "none_its_over",
+    "promptContent": "Thanks for playing. If you found the person that murdered your family, far out, go you. If not, also far out. Come again next Christmas!",
+    "promptImage": "/assets/finito.png",
+    "promptChoices": ["play again.", "forget this even happened."],
+    "dialogue": false 
+},
 
 {
     "name": "word",
     "promptContent": "Thanks for playing. If you found the person that murdered your family, far out, go you. If not, also far out. Come again next Christmas!",
     "promptImage": "/assets/finito.png",
-    "promptChoices": ["play again.", "forget this even happened."]
+    "promptChoices": ["play again.", "forget this even happened."],
+    "dialogue": false 
 },
 
 
@@ -596,7 +635,8 @@ var prompts = [
     "name": "fall_asleep",
     "promptContent": "Thanks for playing. If you found the person that murdered your family, far out, go you. If not, also far out. Come again next Christmas!",
     "promptImage": "/assets/finito.png",
-    "promptChoices": ["play again.", "forget this even happened."]
+    "promptChoices": ["play again.", "forget this even happened."],
+    "dialogue": false 
 },
 
 
@@ -604,7 +644,8 @@ var prompts = [
     "name": "end_game",
     "promptContent": "Thanks for playing. If you found the person that murdered your family, far out, go you. If not, also far out. Come again next Christmas!",
     "promptImage": "/assets/finito.png",
-    "promptChoices": ["play again.", "forget this even happened."]
+    "promptChoices": ["play again.", "forget this even happened."],
+    "dialogue": false 
 }
 
 ];
