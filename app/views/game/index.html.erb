@@ -1,7 +1,20 @@
-<br>
-<div class="murdered_family_image">
-    <%= image_tag("happy_family.png") %>
-    
-    <p style="color: black; font-size: 20px" class ="murdered_family_link"><b><%=link_to "Somebody Just Murdered Your Entire Family; Give Them the Firm Talking To of a Life Time.", game_show_path %></b></p>
+<div class="podcast_blurb" style="color: black;">
+  <p>If you look at this picture for long enough, you'll stop and play a game I made.</p>
 
+
+    <img id="jiggly_pic" src="http://40.media.tumblr.com/tumblr_m0i9uzwVfD1qigyqno1_500.png"></img>
 </div>
+
+
+
+
+<div id ="writing_list">
+    <h4 style="color: black; font-family: Helvetica; font-weight: bold;"> Best Games on this Planet</h4>
+    <br>
+    <ul>
+      <%@games.each do |game| %>
+      <div id="list_item"><li><%=image_tag game.image, id: "list_image"%>
+        <div id="list_title"><%=link_to game.title, game_show_path, id: "game_link" %></div></li></div><br><br>
+      <%end%>
+    </ul>
+  </div>

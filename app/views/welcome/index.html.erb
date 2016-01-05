@@ -1,19 +1,15 @@
-<h1><h1>
-
 
 
 <div class="welcome_blurb">
-  <p>Welcome to Kowabunga Forever. The site dedicated to making sure that all of the world's kowabunga remain at an optimal level at all times. The job isn't pretty, is mostly thankless, and has very little to do with anything. But we do it any way -- because we believe there is a quiet nobility in completely useless shit. </p>
-  <p>We know what you're thinking. Sites are always promising to keep kowabunga levels at an optimal level, and yet they fall short. Why should you believe that we're any different? You shouldn't. We don't even know what the word optimal means.
-    The guy who started this site literally just walked away from a potential job opportunity because he was “tired and responsibility is terrifying". But just be cool and go with it, okay? For once in your life, be cool. The links on the right lead to some written content, while the nav bar on top will lead to podcast episodes and (eventually) videos. You know how the internet works.</p>
-  <p>Enjoy. </p>
-  <p>-Kowabunga Forever Staff<p>
+ <iframe src="https://player.vimeo.com/video/150738209" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 
-<section class = "newest_writing">
 
-  <div><%=image_tag "http://www.ommwriter.com/images/bg7.gif", id: "writing_image"%></div>
+<br><br><section class = "newest_writing">
+
+ 
+<div><img src="" id="image"></img></div>
 
   <div id="writing_title">
     <p></p>
@@ -26,9 +22,12 @@
   </section>
 
   <div id ="writing_list">
+    <h4 style="color: black; font-family: Helvetica; font-weight: bold;">Critic's Choice Reading List</h4>
+    <br>
     <ul>
       <%@writings.each do |writing| %>
-      <li><%=link_to writing.title, writing_path(writing), id: "writing_link" %></li><br><br>
+      <div id="list_item"><li><%=image_tag writing.image, id: "list_image"%>
+        <div id="list_title"><%=link_to writing.title, writing_path(writing), id: "writing_link" %></div></li></div><br><br>
       <%end%>
     </ul>
   </div>

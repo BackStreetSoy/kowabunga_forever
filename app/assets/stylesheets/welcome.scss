@@ -13,36 +13,44 @@
 .newest_writing{
   float: left;
   margin-left: 50px;
-
 }
+
 
 #writing_image{
   height: 325px;
   width: 500px;
-  border-color: white;
+  border: 1px solid rgba(255, 255, 255, .01);
+  opacity: 1;
 }
 
+.site-container#writing_image{
+  opacity: 1;
+}
+
+
 #writing_title{
-  font-family: "Georgia";
-  font-size: 60%;
+  font-family: Helvetica;
+  font-size: 160%;
+  color: black;
 }
 
 #writing_content{
   position: absolute;
   font-family: "Gandhi Sans";
-  font-weight: normal;
+  font-weight: bold;
   text-align: left;
   font-size: 15px;
   margin-right: 425px;
+  color: black;
 }
+
 #writing_list {
     float: right;
-    margin-right: 90px;
-    height: 700px;
-    width: 300px;
-    border-left: thin solid black;
+    margin-right: 5px;
+    height: 450px;
+    width: 290px;
     overflow: auto;
-    font-size: 18px;
+    font-size: 13px;
 }
 
 ul{
@@ -60,6 +68,7 @@ a:hover, a:visited, a:link, a:active
 
 
 #writing_list a:hover{
-  color: salmon;
+  text-decoration: underline;
+  text-align: none;
 }
 

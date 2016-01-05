@@ -1,3 +1,4 @@
+<!-- site still needs a social media share bar,  -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,38 +10,37 @@
 <!-- bangers -->
 <link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
+</head>
 
 <body class = "<%=controller_name %> <%=action_name%>">
+
   <%unless @enter %>
-     <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="/welcome/index">Kowabunga Forever</a>
-    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="/shorts/index">Videos</a></li>
-        <li><a href="/podcasts/index">Recordings</a></li>
-        <!-- <li><a href="/writings/index">Writings</a></li> -->
-        <li><a href="/game/index">Games</a></li>
+  <div class="kowabunga_bar">
+    <p>kowabunga never dies</p>
+
+  
+  </div>
+
+<div class="kowabunga_logo">
+  <img src="/assets/new_neon.png"></img>
+</div>
+
+<div class="menu">
+      <ul id="navigation">
+        <li><a href="/welcome/index">home</a><li><!-- <a href="/shorts/index">Videos</a></li><li> --><a href="/podcasts/index">Recordings</a></li><!-- <li><a href="/writings/index">Writings</a></li> --><li><a href="/game/index">Games</a></li>
       </ul>
-      <!-- <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-      </form> -->
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+</div>
 
-<!-- <div class="random_statistic">
-  <p style= "color: black; font-family: Helvetica;"><b>relevent statistic:</b> There are currently <#%=@stat_number %> <#%=@stat_content%> right now</p>
-</div><br><br> -->
+ <div class = "site-container">
+    
+
   <%end%>
 
 <%= yield %>
+</div>
 </body>
 </html>

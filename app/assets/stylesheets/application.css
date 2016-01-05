@@ -14,12 +14,161 @@
  *= require_self
  */
 
+html, body {
+    /*height: 100%;
+    background-color: #231f20;*/
+
+background: #EEECEC;
+background-image:url("clown_station.png");
+background-size: cover;
+/*overflow: hidden;*/
+text-align: none;
+
+/*background: #005C97*/; /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to left, #005C97 , #363795)*/; /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to left, #005C97 , #363795);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+
+}
+
+
+
  h1{
   font-family: 'Helvetica';
   font-weight: bold;
   color: black;
  }
 
- .navbar{
-  margin-bottom: 2px;
+.kowabunga_logo{
+  position: absolute;
+  left: 200px;
+}
+
+ .site-container {
+    background-color: #ffffff;
+    border-right: 0;
+    border-bottom: 0;
+    top: 0;
+    display: block;
+  /*  opacity: 0.7;*/
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    overflow: auto;
+    background:rgba(255,255,255,0.7);
+    width: 84%;
  }
+
+/*
+ {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier 
+}*/
+
+ .site-container{
+   position: absolute;
+   top: 185px;
+   right: 97px;
+   width: 85%;
+   height: 75%;
+   box-shadow: 0 2px 2px 1px rgba(64,64,65,.11)
+ }
+
+.kowabunga_bar{
+    height: 30px;
+    background-color: #3f3f3f;
+    z-index: -1;
+ /*   z-index: 10001;
+*/    font-family: 'Indie Flower', cursive;
+}
+
+.kowabunga_bar p{
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.kowabunga_bar img{
+  z-index: 100; /*position: relative;*/
+  position: inline;
+  float: right;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.kowabunga_bar #contact{
+  z-index: 100; position: inline;
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+#tweet_pic {
+    z-index: 100;
+    position: inline;
+    float: right;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-left: 920px;
+}
+
+#tweet{
+  z-index: 100; position: inline;
+  float: right;
+/*  margin-right: 1px;
+  margin-top: 1px;*/
+}
+
+#navigation{
+  position: absolute;
+  top: 195px;
+  left: 97px;
+}
+
+
+ul#navigation {
+    padding: 0;
+    z-index: 1;
+}
+
+ul#navigation li {
+    display: inline;
+}
+
+ul#navigation li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+ul#navigation li a:hover {
+  color: #5ac9de;
+}
+
+#list_item img{
+  display: block;
+  height: 90px;
+  width:148px;
+}
+
+#list_title{
+  border-bottom: 1px solid gray;
+}
+
+.social_media{
+    margin-left: 1050px;
+    margin-top: 0px;
+    border-top-width: 50px;
+    padding-top: 4px;
+
+}
+
+
+
+
+
+
+
+

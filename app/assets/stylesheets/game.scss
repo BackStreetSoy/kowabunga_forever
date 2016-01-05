@@ -2,9 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.murdered_family_image{
+    margin-top: 45px;
+    margin-left: 200px;
+}
+
+.murdered_family_image img{
+    margin-left: 40px;
+    
+}
+
+p.murdered_family_link{
+    text-align: center;
+}
+
+
 .prompt_image img{
-    width: 628px;
-    height: 353px;
+    margin-top: 45px;
+    margin-left: 240px;
+    width: 600px;
+    height: 345px;
+    overflow: hidden;
 }
 
 .current_prompt {
@@ -21,6 +39,13 @@
     margin-left: 305px;
     margin-right: 300px;
     margin-top: 50px;
+    bottom: 35px;
+}
+
+.options{
+    position: relative;
+    display: inline-block;
+    bottom:  35px;
 }
 
 .option_select{
@@ -44,14 +69,30 @@
 
 .option_select:hover{
     background-color: #FF99CC;
+    cursor: pointer; cursor: hand; 
 }
 
 
-
-
-
 .option_select_dialogue{
-    
+    float: left;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    clear: both;
+    color: #3a3a3a;
+    padding: 10px;
+    margin: 5px;
+    background-color: #33c5f3;
+    margin-left: 310px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;    
+}
+
+.option_select_dialogue:hover{
+    cursor: pointer; cursor: hand; 
+    background-color: #5ac9de;
 }
 
 .option_select_dialogue::after{
@@ -61,7 +102,16 @@
     left: 15px;
     border-width: 15px 15px 0 0;
     border-style: solid;
-    border-color: #FFCCCC transparent;
+    border-color: #33c5f3 transparent;
     display: block;
     width: 0;
+}
+
+.option_select_dialogue::after:hover{
+    background-color: #5ac9de;
+}
+
+#jiggly_pic{
+    height: 220px;
+    width: 300px;
 }

@@ -16,8 +16,13 @@ $(document).ready(function(){
                 $(".welcome_blurb").hide();
                 $("#writing_title p").html(response.title);
                 $("#writing_content p").html(response.content);
-                $("#writing_image").attr("src", response.image);
+                $("#image").attr({"id": "writing_image", "src": response.image});
 
+                if($("#writing_image").length){
+                    console.log("ding")
+                    console.log("diiing")
+                    $("#writing_image").attr("src", response.image)
+                }
             }
         });
 

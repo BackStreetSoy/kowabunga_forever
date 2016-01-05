@@ -337,8 +337,11 @@ fieldset[disabled] .btn-danger.active {
 }
 
 .navbar-default {
-  background-color: transparent;
   margin-bottom: 2px;
+  background: #EEECEC;
+  /*background: #005C97;*/ /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to left, #005C97 , #363795);*/ /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to left, #005C97 , #363795)*/
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .active > a {
@@ -350,10 +353,10 @@ div.navbar-header a.navbar-brand {
   color: salmon;
 }
 
-.container-fluid{
+/*.container-fluid{
   background-image: url('lightpaperfibers.png');
 
-}
+}*/
 
 li a{
   font-family: Helvetica;
@@ -588,4 +591,3 @@ li a{
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
           box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
 }
-/*# sourceMappingURL=bootstrap-theme.css.map */

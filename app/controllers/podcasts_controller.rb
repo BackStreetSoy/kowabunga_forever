@@ -5,6 +5,9 @@ class PodcastsController < ApplicationController
 
   def show 
     @podcast = Podcast.find(params[:id])
+     if request.xhr?
+        render :json => @podcast
+    end 
   end 
 
 

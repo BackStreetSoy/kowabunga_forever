@@ -28,6 +28,7 @@
 #podcast_title{
   font-family: "Georgia";
   font-size: 60%;
+  margin-top: 50px;
 }
 
 #podcast_content{
@@ -37,6 +38,7 @@
   text-align: left;
   font-size: 15px;
   margin-right: 425px;
+  width: 500px;
 }
 #podcast_list {
     float: right;
@@ -46,6 +48,22 @@
     border-left: thin solid black;
     overflow: auto;
     font-size: 18px;
+}
+
+
+.podcast_blurb#podcast_title{
+  font-family: "Georgia";
+  font-size: 60%;
+  margin-top: 50px;
+}
+
+.podcast_blurb#podcast_content{
+  position: absolute;
+  font-family: "Gandhi Sans";
+  font-weight: normal;
+  text-align: left;
+  font-size: 15px;
+  margin-right: 425px;
 }
 
 ul{
@@ -65,3 +83,6 @@ a:hover, a:visited, a:link, a:active
 #podcast_list a:hover{
   color: salmon;
 }
+
+
+
