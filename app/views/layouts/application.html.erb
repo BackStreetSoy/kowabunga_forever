@@ -1,3 +1,4 @@
+<!-- site still needs a social media share bar,  -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,10 +6,41 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <!-- Latest compiled and minified CSS -->
+<!-- bangers -->
+<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
 </head>
-<body>
+
+<body class = "<%=controller_name %> <%=action_name%>">
+
+  <%unless @enter %>
+
+  <div class="kowabunga_bar">
+    <p>kowabunga never dies</p>
+
+  
+  </div>
+
+<div class="kowabunga_logo">
+  <img src="/assets/new_neon.png"></img>
+</div>
+
+<div class="menu">
+      <ul id="navigation">
+        <li><a href="/welcome/index">home</a><li><!-- <a href="/shorts/index">Videos</a></li><li> --><a href="/podcasts/index">Recordings</a></li><!-- <li><a href="/writings/index">Writings</a></li> --><li><a href="/game/index">Games</a></li>
+      </ul>
+</div>
+
+ <div class = "site-container">
+    
+
+  <%end%>
 
 <%= yield %>
-
+</div>
 </body>
 </html>
