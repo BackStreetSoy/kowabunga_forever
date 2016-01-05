@@ -149,12 +149,9 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
-<<<<<<< HEAD
-  pg
-=======
   jquery-turbolinks
   json
->>>>>>> bb98c0c3feb8e8434d26d3200b11d9ec04f825e3
+  pg
   rails (= 4.2.1)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
