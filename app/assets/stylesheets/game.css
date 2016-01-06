@@ -114,4 +114,17 @@ p.murdered_family_link{
 #jiggly_pic{
     height: 220px;
     width: 300px;
+    position: absolute;
+    top: 50px;
+    }
+
+.game_blurb{
+  position: absolute;
+  font-family: "Gandhi Sans";
+  font-weight: normal;
+  text-align: left;
+  font-size: 15px;
+  margin-right: 425px;
+  top: 50px;
+  left: 15px;
 }
