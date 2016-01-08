@@ -1,0 +1,15 @@
+/* line 5, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/writings.scss */
+.welcome_blurb {
+  position: absolute;
+  word-break: keep-all;
+  white-space: wrap;
+  hyphens: auto;
+  color: gray;
+  font-family: "Gandhi Sans";
+  font-weight: normal;
+  font-size: 16px;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 425px;
+  margin-top: 50px;
+}

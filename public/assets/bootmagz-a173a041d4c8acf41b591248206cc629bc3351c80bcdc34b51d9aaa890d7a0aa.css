@@ -1,0 +1,673 @@
+/* line 2, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+body {
+  background: none repeat scroll 0 0 #EDEEEF;
+  /*    background-image: url("../img/bg-body.png");*/
+}
+
+/* line 8, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.main {
+  background-color: #FFF;
+  border: 1px solid #E0E0E0;
+  padding: 15px;
+}
+
+/* line 14, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.top-menu {
+  border-bottom: #E0E0E0 dotted 1px;
+  margin-top: -10px;
+  height: 40px;
+}
+
+/* line 20, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.header {
+  margin-top: 20px;
+  height: 90px;
+}
+
+/* line 25, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.logo {
+  margin-left: 0;
+}
+
+/* line 30, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.logo h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #99BB00;
+}
+
+/* line 36, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.slogan {
+  margin-left: 2px;
+  color: #999;
+}
+
+/* line 41, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.ads-top {
+  width: 610px;
+  margin-right: 0;
+}
+
+/* line 46, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.socmed-box {
+  width: 450px;
+}
+
+/* line 50, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media {
+  position: relative;
+  overflow: hidden;
+  margin: 0px 0px 5px;
+  padding: 0px;
+  list-style: none;
+}
+
+/* line 51, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li {
+  margin: 0px 3px 3px 0px;
+  width: 32px;
+  height: 32px;
+  float: left;
+}
+
+/* line 52, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a {
+  width: 32px;
+  height: 32px;
+  display: block;
+  padding: 0px;
+  background: url(../img/social_media_icon.png) 0px 0px no-repeat;
+  opacity: 0.3;
+}
+
+/* line 53, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a:hover {
+  width: 32px;
+  height: 32px;
+  display: block;
+  padding: 0px;
+  background: url(../img/social_media_icon.png) 0px 0px no-repeat;
+  opacity: 1;
+}
+
+/* line 54, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.twitter {
+  background-position: 0px 0px;
+}
+
+/* line 55, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.facebook {
+  background-position: -40px 0px;
+}
+
+/* line 56, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.in {
+  background-position: -80px 0px;
+}
+
+/* line 57, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.gplus {
+  background-position: -120px 0px;
+}
+
+/* line 58, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.dribble {
+  background-position: -160px 0px;
+}
+
+/* line 59, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.forrst {
+  background-position: -200px 0px;
+}
+
+/* line 60, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.flickr {
+  background-position: -240px 0px;
+}
+
+/* line 61, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.deviant {
+  background-position: -280px 0px;
+}
+
+/* line 62, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.blogger {
+  background-position: -320px 0px;
+}
+
+/* line 63, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.del {
+  background-position: -360px 0px;
+}
+
+/* line 64, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.vimeo {
+  background-position: -400px 0px;
+}
+
+/* line 65, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.utube {
+  background-position: -440px 0px;
+}
+
+/* line 66, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.rss {
+  background-position: -480px 0px;
+}
+
+/* line 67, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.pint {
+  background-position: -520px 0px;
+}
+
+/* line 68, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.skype {
+  background-position: -560px 0px;
+}
+
+/* line 69, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.yahoo {
+  background-position: -600px 0px;
+}
+
+/* line 70, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+ul.social_media li a.netvibes {
+  background-position: -640px 0px;
+}
+
+/* Content */
+/* line 73, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.left-content {
+  width: 290px;
+  float: left;
+}
+
+/* line 78, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.right-content {
+  width: 290px;
+  float: right;
+}
+
+/* line 83, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.big-image-content img {
+  margin-top: 12px;
+  height: 255px;
+}
+
+/* line 89, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.big-image-content {
+  position: relative;
+}
+
+/* line 94, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.inner-news-title {
+  background: url("../img/bg-slider.png") repeat scroll left top transparent;
+  color: #FFFFFF;
+  height: 75px;
+  left: 0;
+  overflow: hidden;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  margin-top: 170px;
+}
+
+/* line 106, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.inner-news-title a {
+  color: #99AA00;
+}
+
+/* line 110, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.inner-news-title a:hover {
+  color: #99CC33;
+}
+
+/* line 114, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.fixed {
+  min-height: 1%;
+}
+
+/* line 118, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.fixed {
+  display: block;
+}
+
+/* line 122, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.fixed:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/*-----------------------*/
+/* Right Sidebar*/
+/* line 133, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.right-sidebar, .box-widget {
+  width: 290px;
+}
+
+/* line 137, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.sidebar-left {
+  width: 120px;
+  float: left;
+  margin-left: 0;
+}
+
+/* line 143, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.sidebar-right {
+  width: 120px;
+  float: right;
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+/* line 150, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.sidebar-left ul, .sidebar-right ul {
+  margin-left: 10px;
+}
+
+/* line 154, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.sidebar-left li, .sidebar-right li {
+  height: 25px;
+  border-bottom: #999 1px dotted;
+  margin-bottom: 5px;
+}
+
+/* line 160, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.search-form {
+  width: 230px;
+}
+
+/* line 164, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.fb-like-box {
+  margin-left: 5px;
+}
+
+/* line 171, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.tab-box {
+  width: 290px;
+}
+
+/* line 175, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.tags {
+  list-style: none outside;
+}
+
+/* line 179, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.tags li {
+  margin-left: 5px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* line 185, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.tags a:hover {
+  text-decoration: underline;
+}
+
+/* line 189, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.popular .comments {
+  width: 290px;
+}
+
+/* line 192, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.latest-photos {
+  margin-left: -40px;
+}
+
+/* line 195, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.latest-photos img {
+  opacity: 0.5;
+  border: #ccc 5px solid;
+}
+
+/* line 200, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.latest-photos img:hover {
+  opacity: 1;
+  border: #99AA00 5px solid;
+}
+
+/*---------------*/
+/* Widget */
+/* line 208, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.widget {
+  float: left;
+  margin: 0 20px 25px 0;
+}
+
+/* line 212, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.widget-title {
+  background: url("../img/widget_title_bg3.png") repeat-x left bottom;
+  height: 17px;
+  margin-bottom: 20px;
+}
+
+/* line 217, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.widget-title h3 {
+  /*    font-family:'BebasNeueRegular', Arial, sans-serif;*/
+  color: #99AA00;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding: 0 7px;
+  background-color: #fff;
+  display: inline-block;
+  line-height: 23px;
+  zoom: 1;
+  /* IE7 fix */
+}
+
+/* line 232, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.widget-title h3 a {
+  color: #666;
+}
+
+/* line 235, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.widget-more {
+  margin-top: 5px;
+}
+
+/*----------------*/
+/* List News */
+/* line 243, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.recent-news {
+  margin-left: 0;
+}
+
+/* line 247, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.item-news {
+  border-bottom: #999 1px dotted;
+  height: 80px;
+  margin-top: 12px;
+}
+
+/* line 253, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.item-news img {
+  float: left;
+  margin-right: 5px;
+  border: #ccc 4px solid;
+  opacity: 0.5;
+}
+
+/* line 260, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.item-news img:hover {
+  opacity: 1;
+}
+
+/* line 264, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.date {
+  color: #999;
+  font-size: 11px;
+}
+
+/* line 269, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.featured-news {
+  margin-left: 0;
+}
+
+/* line 273, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.featured-news img {
+  border: #ccc 1px solid;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+/* line 280, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.post-count {
+  color: #999;
+}
+
+/* line 284, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.rounded {
+  border-radius: 3px 3px 3px 3px;
+}
+
+/* line 288, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.featured-category {
+  background: none repeat scroll 0 0 #1F481F;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  padding: 10px;
+  color: #ccc;
+}
+
+/* line 296, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.featured-category img {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 301, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.featured-category img:hover {
+  opacity: 0.5;
+}
+
+/* line 305, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.featured-category a {
+  color: #DDD;
+}
+
+/* line 309, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.featured-category a:hover {
+  color: #99CC00;
+}
+
+/* line 314, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.category-item img {
+  float: left;
+  margin-right: 10px;
+  margin-top: 3px;
+  border: #ccc 4px solid;
+  opacity: 0.5;
+}
+
+/* line 322, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.category-item img:hover {
+  opacity: 1;
+}
+
+/* line 326, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.single img {
+  float: left;
+  margin-right: 10px;
+  border: #ccc 1px solid;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* line 335, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.related_posts ul {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 339, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.related_posts > ul > li {
+  padding: 8px 8px 8px 0px;
+}
+
+/* line 342, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.related_posts > ul > li + li {
+  border-top: 1px solid #EEEEEE;
+}
+
+/* line 345, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.related_posts > ul > li > a {
+  text-decoration: none;
+}
+
+/* line 348, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.related_posts > ul > li > a:hover {
+  text-decoration: none;
+  background: none;
+}
+
+/* line 352, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.related_posts > ul > li ul {
+  display: none;
+}
+
+/* line 355, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.related_posts > ul > li a.active {
+  font-weight: bold;
+}
+
+/* line 358, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.related_posts > ul > li a.active + ul {
+  display: block;
+}
+
+/* line 361, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.related_posts > ul > li ul > li {
+  padding: 5px 5px 0px 10px;
+}
+
+/* line 364, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.related_posts > ul > li ul > li > a {
+  text-decoration: none;
+  display: block;
+}
+
+/* line 368, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.related_posts > ul > li ul > li > a.active {
+  font-weight: bold;
+}
+
+/* line 372, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.author {
+  width: 290px;
+}
+
+/* line 376, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.author img {
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+/* line 382, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.blog img {
+  border: #ccc 3px solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  opacity: 0.75;
+}
+
+/* line 389, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.blog img:hover {
+  opacity: 1;
+  border: #999 3px solid;
+}
+
+/*-------------*/
+/* Page */
+/*---------------*/
+/*Galleries*/
+/* line 400, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.galleries img {
+  opacity: 0.6;
+}
+
+/* line 403, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.galleries img:hover {
+  opacity: 1;
+}
+
+/* line 407, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.photo-desc {
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* line 413, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.gallery-item {
+  width: 295px;
+}
+
+/*--------------*/
+/* Footer */
+/* line 420, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.latest-tweets {
+  margin-left: 20px;
+}
+
+/* line 425, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.item-tweet {
+  border-bottom: #999 1px dotted;
+  margin-bottom: 10px;
+}
+
+/* line 431, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.blogroll {
+  width: 220px;
+  margin-left: 20px;
+}
+
+/* line 436, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.tweet-date {
+  font-size: 11px;
+}
+
+/* line 440, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.contact {
+  width: 220px;
+  margin-left: 10px;
+}
+
+/* line 446, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.contact h1 {
+  color: #99AA00;
+}
+
+/* line 450, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.about {
+  margin-left: 35px;
+}
+
+/* line 456, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+#footer {
+  background-color: #333;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: -25px;
+  padding: 10px 0 10px 10px;
+  color: #BBB;
+}
+
+/* line 465, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+#footer a {
+  color: #99BB00;
+}
+
+/* line 468, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.footer-photos {
+  width: 220px;
+}
+
+/* line 472, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.footer-photos img {
+  opacity: 0.5;
+  border: #ccc 5px solid;
+}
+
+/* line 477, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.footer-photos img:hover {
+  opacity: 1;
+  border: #99AA00 5px solid;
+}
+
+/* line 483, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.copyright-box {
+  margin-top: 30px;
+  margin-right: -25px;
+  text-align: right;
+}
+
+/* line 490, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/bootmagz.scss */
+.powered-by {
+  font-size: 11px;
+}

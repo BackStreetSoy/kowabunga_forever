@@ -82,4 +82,5 @@ Rails.application.configure do
     config.serve_static_files = true
     config.assets.compile = true
     config.assets.digest = true
+    config.assets.version = 1.1
 end

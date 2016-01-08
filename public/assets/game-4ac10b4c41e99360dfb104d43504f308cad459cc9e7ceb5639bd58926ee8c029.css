@@ -1,0 +1,136 @@
+/* line 5, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+.murdered_family_image {
+  margin-top: 45px;
+  margin-left: 200px;
+}
+
+/* line 10, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+.murdered_family_image img {
+  margin-left: 40px;
+}
+
+/* line 15, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+p.murdered_family_link {
+  text-align: center;
+}
+
+/* line 20, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+.prompt_image img {
+  margin-top: 45px;
+  margin-left: 240px;
+  width: 600px;
+  height: 345px;
+  overflow: hidden;
+}
+
+/* line 28, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+.current_prompt {
+  min-width: 52%;
+  position: relative;
+  word-break: keep-all;
+  white-space: wrap;
+  hyphens: auto;
+  color: gray;
+  font-family: "Gandhi Sans";
+  font-weight: normal;
+  font-size: 110%;
+  text-align: justify;
+  margin-left: 305px;
+  margin-right: 300px;
+  margin-top: 50px;
+  bottom: 35px;
+}
+
+/* line 45, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+.options {
+  position: relative;
+  display: inline-block;
+  bottom: 35px;
+}
+
+/* line 51, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+.option_select {
+  float: left;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  clear: both;
+  color: #3a3a3a;
+  padding: 15px;
+  margin: 5px;
+  background-color: #FFCCCC;
+  margin-left: 310px;
+  margin-top: 5px;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+}
+
+/* line 70, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+.option_select:hover {
+  background-color: #FF99CC;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 76, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+.option_select_dialogue {
+  float: left;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  clear: both;
+  color: #3a3a3a;
+  padding: 10px;
+  margin: 5px;
+  background-color: #33c5f3;
+  margin-left: 310px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: relative;
+  border-radius: 10px;
+}
+
+/* line 93, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+.option_select_dialogue:hover {
+  cursor: pointer;
+  cursor: hand;
+  background-color: #5ac9de;
+}
+
+/* line 98, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+.option_select_dialogue::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 15px;
+  border-width: 15px 15px 0 0;
+  border-style: solid;
+  border-color: #33c5f3 transparent;
+  display: block;
+  width: 0;
+}
+
+/* line 110, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+.option_select_dialogue::after:hover {
+  background-color: #5ac9de;
+}
+
+/* line 114, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+#jiggly_pic {
+  height: 220px;
+  width: 300px;
+  position: absolute;
+  top: 50px;
+}
+
+/* line 121, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/game.scss */
+.game_blurb {
+  position: absolute;
+  font-family: "Gandhi Sans";
+  font-weight: normal;
+  text-align: left;
+  font-size: 15px;
+  margin-right: 425px;
+  top: 50px;
+  left: 15px;
+}

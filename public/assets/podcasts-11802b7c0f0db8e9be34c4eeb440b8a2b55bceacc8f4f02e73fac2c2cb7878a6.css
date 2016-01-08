@@ -1,0 +1,103 @@
+/* line 5, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/podcasts.scss */
+.podcast_blurb {
+  position: absolute;
+  word-break: keep-all;
+  white-space: wrap;
+  hyphens: auto;
+  color: gray;
+  font-family: "Gandhi Sans";
+  font-weight: normal;
+  font-size: 16px;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 425px;
+  margin-top: 50px;
+}
+
+/* line 21, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/podcasts.scss */
+.current_podcast {
+  float: left;
+  margin-left: 50px;
+}
+
+/* line 27, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/podcasts.scss */
+.podcast_blurb {
+  position: absolute;
+  top: 50px;
+  left: 25px;
+}
+
+/* line 33, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/podcasts.scss */
+#podcast_title {
+  font-family: "Georgia";
+  font-size: 60%;
+  margin-top: 50px;
+}
+
+/* line 39, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/podcasts.scss */
+#podcast_content {
+  position: absolute;
+  font-family: "Gandhi Sans";
+  font-weight: normal;
+  text-align: left;
+  font-size: 15px;
+  margin-right: 425px;
+  width: 500px;
+}
+
+/* line 48, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/podcasts.scss */
+#podcast_list {
+  float: right;
+  margin-right: 90px;
+  height: 700px;
+  width: 300px;
+  border-left: thin solid black;
+  overflow: auto;
+  font-size: 18px;
+}
+
+/* line 59, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/podcasts.scss */
+.podcast_blurb#podcast_title {
+  font-family: "Georgia";
+  font-size: 60%;
+  margin-top: 50px;
+}
+
+/* line 65, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/podcasts.scss */
+.podcast_blurb#podcast_content {
+  position: absolute;
+  font-family: "Gandhi Sans";
+  font-weight: normal;
+  text-align: left;
+  font-size: 15px;
+  margin-right: 425px;
+}
+
+/* line 74, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/podcasts.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 78, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/podcasts.scss */
+a, a:visited {
+  color: black;
+}
+
+/* line 82, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/podcasts.scss */
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+/* line 88, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/podcasts.scss */
+#podcast_list a:hover {
+  color: salmon;
+}
+
+/* line 92, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/podcasts.scss */
+#godzilla_pic {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  left: 30px;
+  top: 120px;
+}

@@ -1,0 +1,76 @@
+/* line 5, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/welcome.scss */
+.random_statistic {
+  width: 40em;
+  height: 3em;
+  position: static;
+  display: inline-block;
+  float: left;
+}
+
+/* line 13, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/welcome.scss */
+.newest_writing {
+  float: left;
+  margin-left: 50px;
+}
+
+/* line 19, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/welcome.scss */
+#writing_image {
+  height: 325px;
+  width: 500px;
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  opacity: 1;
+}
+
+/* line 26, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/welcome.scss */
+.site-container#writing_image {
+  opacity: 1;
+}
+
+/* line 31, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/welcome.scss */
+#writing_title {
+  font-family: Helvetica;
+  font-size: 160%;
+  color: black;
+}
+
+/* line 37, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/welcome.scss */
+#writing_content {
+  position: absolute;
+  font-family: "Gandhi Sans";
+  font-weight: bold;
+  text-align: left;
+  font-size: 15px;
+  margin-right: 425px;
+  color: black;
+}
+
+/* line 47, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/welcome.scss */
+#writing_list {
+  float: right;
+  margin-right: 5px;
+  height: 450px;
+  width: 290px;
+  overflow: auto;
+  font-size: 13px;
+}
+
+/* line 56, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/welcome.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 60, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/welcome.scss */
+a, a:visited {
+  color: black;
+}
+
+/* line 64, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/welcome.scss */
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+/* line 70, /Users/WizardFartSauce/Desktop/kowabunga_forever/kowabunga_forever/app/assets/stylesheets/welcome.scss */
+#writing_list a:hover {
+  text-decoration: underline;
+  text-align: none;
+}
