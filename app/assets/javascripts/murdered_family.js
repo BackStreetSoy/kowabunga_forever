@@ -603,6 +603,7 @@ function getCookie(cname) {
 
 }
 
+
 // this renders the prompt associated with the choice you clicked 
 
 var generate_prompt = function(prompt){
