@@ -145,8 +145,12 @@ padding-top:4px;
 
 #neon_cover{
 position: absolute;
-right: 1px;
+right: -12px;
 bottom: 300px;
+}
+
+.inner_cover div{
+    margin-top: 100px;
 }
 
 
