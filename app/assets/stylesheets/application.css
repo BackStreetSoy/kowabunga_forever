@@ -149,6 +149,17 @@ padding-top:4px;
     margin-top: 100px;
 }
 
+.lead{
+    position: absolute;
+    top:50%;
+    left: 25%;
+}
+
+.mastfoot{
+    position: absolute;
+    left: 19%;
+}
+
 
 
 

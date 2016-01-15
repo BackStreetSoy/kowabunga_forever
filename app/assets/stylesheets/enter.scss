@@ -2,10 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#neon_cover{
+
+
+#neon_cover img{
     position: absolute;
     left: 7%;
-    top: 3%;
+    top: 15%;
 
     transform: translate(-3%, -3%);
 }
